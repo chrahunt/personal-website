@@ -1,0 +1,30 @@
+baseURL = "http://chri.sh"
+title = "Chris Hunt"
+theme = "coder"
+languageCode = "en-us"
+
+[params] # theme parameters
+    author = "Chris Hunt"
+    info = "Developer" # Author's job title or info.
+    description = "Chris Hunt's personal website" # Site description.
+    keywords = "blog,developer,personal" # Site keywords.
+
+    #disqusShortname = "yourdiscussshortname" # Enable or disable Disqus
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = true
+    hideCopyright = true
+
+    # Custom CSS
+	custom_css = []
+
+# Social links
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/chrahunt/"
+
+[[params.social]]
+    name = "LinkedIn"
+    weight = 2
+    url = "https://www.linkedin.com/in/chrahunt/"
